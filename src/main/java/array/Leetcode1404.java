@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @ClassName Leetcode1401
+ * @ClassName Leetcode1404
  * @MethodDesc: TODO Leetcode1404
  * @Author Movle
  * @Date 4/4/20 10:59 上午
