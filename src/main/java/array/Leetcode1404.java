@@ -1,6 +1,5 @@
 package array;
 
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -12,6 +11,12 @@ import java.util.Set;
  * @Version 1.0
  * @Email movle_xjk@foxmail.com
  **/
+
+/**
+ * LeetCode面试01.01 判断字符是否唯一
+ * 题目描述：
+ * 实现一个算法，确定一个字符串 s 的所有字符是否全都不同
+ */
 
 
 public class Leetcode1404 {
@@ -45,7 +50,6 @@ public class Leetcode1404 {
 
             }
         }
-
 
         return true;
     }
