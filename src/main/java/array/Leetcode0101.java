@@ -4,8 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @ClassName Leetcode1404
- * @MethodDesc: TODO Leetcode1404
+ * @ClassName Leetcode0101
+ * @MethodDesc: TODO Leetcode0101
  * @Author Movle
  * @Date 4/4/20 10:59 上午
  * @Version 1.0
@@ -19,7 +19,7 @@ import java.util.Set;
  */
 
 
-public class Leetcode1404 {
+public class Leetcode0101 {
 
     public static void main(String[] args){
 
