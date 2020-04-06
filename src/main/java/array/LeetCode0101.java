@@ -19,7 +19,7 @@ import java.util.Set;
  */
 
 
-public class Leetcode0101 {
+public class LeetCode0101 {
 
     public static void main(String[] args){
 
