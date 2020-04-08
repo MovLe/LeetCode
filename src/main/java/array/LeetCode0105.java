@@ -46,13 +46,9 @@ public class LeetCode0105 {
         int l1=first.length();
         int l2= second.length();
 
-
         for(int i=0;i<l2;i++){
             if(first.charAt(i) != second.charAt(i)){
                 return first.substring(i+1).equals(second.substring(l1==l2?i+1:i));
-
-            }else {
-                return true;
             }
         }
 
