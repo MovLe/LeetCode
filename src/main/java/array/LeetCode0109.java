@@ -1,14 +1,18 @@
 package array;
 
 /**
- * @ClassName LeetCode0109
- * @MethodDesc: TODO LeetCode0109功能介绍
+ * @ClassName LeetCode0109 字符串轮转
+ * @MethodDesc:
  * @Author Movle
  * @Date 4/10/20 9:32 上午
  * @Version 1.0
  * @Email movle_xjk@foxmail.com
  **/
 
+/**
+ * LeetCode 0109题目
+ * 字符串轮转。给定两个字符串s1和s2，请编写代码检查s2是否为s1旋转而成（比如，waterbottle是erbottlewat旋转后的字符串）
+ */
 
 public class LeetCode0109 {
     public static void main(String[] args) {
