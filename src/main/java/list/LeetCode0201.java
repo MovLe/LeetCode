@@ -4,8 +4,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @ClassName LeetCode0201
- * @MethodDesc: TODO LeetCode0201功能介绍
+ * @ClassName LeetCode0201 删除单链表中重复结点
+ * @MethodDesc:
  * @Author Movle
  * @Date 4/11/20 9:35 上午
  * @Version 1.0
