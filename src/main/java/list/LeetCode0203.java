@@ -1,8 +1,8 @@
 package list;
 
 /**
- * @ClassName LeetCode0203
- * @MethodDesc: TODO LeetCode0203功能介绍
+ * @ClassName LeetCode0203 删除中间结点
+ * @MethodDesc:
  * @Author Movle
  * @Date 4/11/20 11:30 上午
  * @Version 1.0
