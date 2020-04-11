@@ -11,4 +11,19 @@ package list;
 
 
 public class LeetCode0201 {
+
+    public static void main(String[] args) {
+
+    }
+
+    public static ListNode removeDuplicateNodes(ListNode head){
+
+
+
+
+        return head;
+    }
 }
+
+
+
