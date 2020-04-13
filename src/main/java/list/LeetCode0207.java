@@ -55,9 +55,8 @@ public class LeetCode0207 {
 
     /**
      * 解法二
-     * 将一个链表的所有引用存储在list中，
+     * 将一个链表的所有引用存储在list中
      * 再判断另一个链表中的引用是否存在与前一个链表相同的引用
-     *
      */
     public static ListNode getIntegersectionNode2(ListNode headA,ListNode headB){
         if(headA==null||headB==null){
