@@ -170,4 +170,26 @@ public class review {
         }
 
     }
+
+    public static boolean isFlipedString(String s1,String s2){
+        if(s1.length()!=s2.length()){
+            return false;
+        }
+        if(s1.equals(s2)){
+            return true;
+        }
+
+        for(int i=0;i<s1.length();i++){
+            if(s1.charAt(0)==s2.charAt(i)){
+                StringBuilder sb = new StringBuilder(s2.substring(i));
+                sb.append(s2.substring(0,i));
+
+                if(s1.equals(sb.toString())){
+                    return true;
+                }
+
+            }
+        }
+        return false;
+    }
 }
