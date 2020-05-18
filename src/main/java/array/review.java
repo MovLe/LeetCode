@@ -97,4 +97,32 @@ public class review {
         return true;
 
     }
+    public static String compressString(String S){
+        int i=0;
+        int length = S.length();
+        int j;
+
+        StringBuilder sb = new StringBuilder();
+
+        while(i<length){
+            j=i;
+            while(j<length && S.charAt(j)==S.charAt(i)){
+                j++;
+            }
+            sb.append(S.charAt(i));
+            sb.append(j-i);
+
+            i=j;
+        }
+
+        String result = sb.toString();
+
+        if(result.length()>S.length()){
+            return S;
+        }else {
+            return result;
+        }
+
+
+    }
 }
