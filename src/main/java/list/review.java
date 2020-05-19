@@ -63,4 +63,29 @@ public class review {
         node.next=node.next.next;
     }
 
+
+    public static ListNode partition(ListNode head,int x){
+        ListNode preHead = new ListNode(-1);
+        ListNode nextHead = new ListNode(-1);
+
+        ListNode preCurrent = preHead;
+        ListNode nextCurrent= nextHead;
+        ListNode current = head;
+
+        while(current!=null){
+            if(current.val<x){
+                preCurrent.next=current;
+                preCurrent=preCurrent.next;
+            }else {
+                nextCurrent.next=current;
+                nextCurrent = nextCurrent.next;
+            }
+            current=current.next;
+        }
+
+        preCurrent.next=nextHead.next;
+        nextCurrent.next=null;
+
+        return preHead.next;
+    }
 }
