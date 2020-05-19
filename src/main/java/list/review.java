@@ -88,4 +88,54 @@ public class review {
 
         return preHead.next;
     }
+
+    public static ListNode addTwoNumbers(ListNode l1,ListNode l2){
+        if(l1==null){
+            return l2;
+        }
+        if(l2==null){
+            return l1;
+        }
+
+        ListNode newHead = new ListNode(-1);
+
+        ListNode p =newHead;
+
+
+        int jinWei=0;
+        while(l1!=null&&l2!=null){
+            int sum = l1.val+l2.val+jinWei;
+            p.next=new ListNode(sum%10);
+            jinWei=sum/10;
+
+            p=p.next;
+            l1=l1.next;
+            l2=l2.next;
+        }
+        while(l1!=null){
+            int sum = l1.val+jinWei;
+            p.next=new ListNode(sum%10);
+            jinWei=sum/10;
+
+            p=p.next;
+            l1=l1.next;
+        }
+
+        while(l2!=null){
+            int sum = l2.val+jinWei;
+            p.next=new ListNode(sum%10);
+            jinWei=sum/10;
+
+            l2=l2.next;
+            p=p.next;
+
+        }
+
+        if(jinWei==1){
+            p.next=new ListNode(jinWei);
+        }
+        return newHead.next;
+
+
+    }
 }
